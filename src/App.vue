@@ -1,14 +1,24 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <button class="btn btn-primary">按鈕</button>
+  <NavMenu></NavMenu>
   <router-view/>
+  <FooterView></FooterView>
 </template>
+
+<script>
+import NavMenu from './components/NavMenu.vue'
+import FooterView from './components/FooterView.vue'
+
+export default {
+  components: {
+    NavMenu,
+    FooterView
+  }
+}
+</script>
 
 <style lang="scss">
 @import "./assets/scss/style";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
