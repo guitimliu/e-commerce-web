@@ -3,10 +3,13 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </nav>
+  <button class="btn btn-primary">按鈕</button>
   <router-view/>
 </template>
 
 <style lang="scss">
+@import "./assets/scss/style";
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
