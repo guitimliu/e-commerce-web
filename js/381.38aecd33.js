@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunke_commerce_web"]=self["webpackChunke_commerce_web"]||[]).push([[381],{381:function(e,n,c){c.r(n),c.d(n,{default:function(){return f}});var r=c(252);const u={class:"about"},t=(0,r._)("h1",null,"This is an about page",-1),a=[t];function s(e,n){return(0,r.wg)(),(0,r.iD)("div",u,a)}var o=c(744);const i={},b=(0,o.Z)(i,[["render",s]]);var f=b}}]);
+//# sourceMappingURL=381.38aecd33.js.map
